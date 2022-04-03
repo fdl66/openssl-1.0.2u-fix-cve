@@ -7,30 +7,38 @@ openssl-1.0.2u受影响的漏洞列表
 --------2022--------
 CVE-2022-0778 (OpenSSL advisory) [High severity] 15 March 2022: 
 Fixed in OpenSSL 1.0.2zd (git commit) (Affected 1.0.2-1.0.2zc)
+本仓库已修复： https://github.com/fdl66/openssl-1.0.2u-fix-cve/pull/7
 
 CVE-2021-4160 (OpenSSL advisory) [Moderate severity] 28 January 2022: 
 Fixed in OpenSSL 1.0.2zc-dev (git commit) (Affected 1.0.2-1.0.2zb)
+当前未修复原因： 代码存在差异，避免非必要异常（而且漏洞仅影响MIPS平台，正常的x86架构不受影响）
 
 --------2021--------
 CVE-2021-3712 (OpenSSL advisory) [Moderate severity] 24 August 2021: 
 Fixed in OpenSSL 1.0.2za (git commit) (Affected 1.0.2-1.0.2y)
+本仓库已修复： https://github.com/fdl66/openssl-1.0.2u-fix-cve/pull/6
 
 CVE-2021-23841 (OpenSSL advisory) [Moderate severity] 16 February 2021: 
 Fixed in OpenSSL 1.0.2y (git commit) (Affected 1.0.2-1.0.2x)
+本仓库已修复： https://github.com/fdl66/openssl-1.0.2u-fix-cve/pull/5
 
 CVE-2021-23840 (OpenSSL advisory) [Low severity] 16 February 2021: 
 Fixed in OpenSSL 1.0.2y (git commit) (Affected 1.0.2-1.0.2x)
+本仓库已修复： https://github.com/fdl66/openssl-1.0.2u-fix-cve/pull/4
 
 CVE-2021-23839 (OpenSSL advisory) [Low severity] 16 February 2021: 
 Fixed in OpenSSL 1.0.2y (git commit) (Affected 1.0.2s-1.0.2x)
+本仓库已修复： https://github.com/fdl66/openssl-1.0.2u-fix-cve/pull/3
 
 
 --------2020--------
 CVE-2020-1971 (OpenSSL advisory) [High severity] 08 December 2020:
 Fixed in OpenSSL 1.0.2x (git commit) (Affected 1.0.2-1.0.2w)
+本仓库已修复： https://github.com/fdl66/openssl-1.0.2u-fix-cve/pull/2
 
 CVE-2020-1968 (OpenSSL advisory) [Low severity] 09 September 2020:
 Fixed in OpenSSL 1.0.2w (Affected 1.0.2-1.0.2v)
+当前未修复原因： 官方无漏洞修复代码，且为低危漏洞
 ```
 
 
