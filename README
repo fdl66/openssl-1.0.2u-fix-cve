@@ -1,4 +1,49 @@
+# 新增readme内容
+## 官方漏洞列表
+https://www.openssl.org/news/vulnerabilities.html
 
+openssl-1.0.2u受影响的漏洞列表
+```
+--------2022--------
+CVE-2022-0778 (OpenSSL advisory) [High severity] 15 March 2022: 
+Fixed in OpenSSL 1.0.2zd (git commit) (Affected 1.0.2-1.0.2zc)
+
+CVE-2021-4160 (OpenSSL advisory) [Moderate severity] 28 January 2022: 
+Fixed in OpenSSL 1.0.2zc-dev (git commit) (Affected 1.0.2-1.0.2zb)
+
+--------2021--------
+CVE-2021-3712 (OpenSSL advisory) [Moderate severity] 24 August 2021: 
+Fixed in OpenSSL 1.0.2za (git commit) (Affected 1.0.2-1.0.2y)
+
+CVE-2021-23841 (OpenSSL advisory) [Moderate severity] 16 February 2021: 
+Fixed in OpenSSL 1.0.2y (git commit) (Affected 1.0.2-1.0.2x)
+
+CVE-2021-23840 (OpenSSL advisory) [Low severity] 16 February 2021: 
+Fixed in OpenSSL 1.0.2y (git commit) (Affected 1.0.2-1.0.2x)
+
+CVE-2021-23839 (OpenSSL advisory) [Low severity] 16 February 2021: 
+Fixed in OpenSSL 1.0.2y (git commit) (Affected 1.0.2s-1.0.2x)
+
+
+--------2020--------
+CVE-2020-1971 (OpenSSL advisory) [High severity] 08 December 2020:
+Fixed in OpenSSL 1.0.2x (git commit) (Affected 1.0.2-1.0.2w)
+
+CVE-2020-1968 (OpenSSL advisory) [Low severity] 09 September 2020:
+Fixed in OpenSSL 1.0.2w (Affected 1.0.2-1.0.2v)
+```
+
+
+## 常用编译命令
+./config no-threads shared
+make -j4
+
+## openssl的rpm包如何制作
+待续
+ 
+
+---------------------------------------------------------------------------------------------------------- 
+ # 下面是官方原来的readme内容
  OpenSSL 1.0.2u 20 Dec 2019
 
  Copyright (c) 1998-2019 The OpenSSL Project
