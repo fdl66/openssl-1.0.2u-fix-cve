@@ -5,6 +5,10 @@ https://www.openssl.org/news/vulnerabilities.html
 openssl-1.0.2u受影响的漏洞列表
 ```
 --------2022--------
+CVE-2022-1292 (OpenSSL advisory) [Moderate severity] 03 May 2022: 
+Fixed in OpenSSL 1.0.2ze (git commit) (Affected 1.0.2-1.0.2zd)
+本仓库已修复： https://github.com/fdl66/openssl-1.0.2u-fix-cve/pull/9
+
 CVE-2022-0778 (OpenSSL advisory) [High severity] 15 March 2022: 
 Fixed in OpenSSL 1.0.2zd (git commit) (Affected 1.0.2-1.0.2zc)
 本仓库已修复： https://github.com/fdl66/openssl-1.0.2u-fix-cve/pull/7
@@ -43,7 +47,7 @@ Fixed in OpenSSL 1.0.2w (Affected 1.0.2-1.0.2v)
 
 
 ## 常用编译命令
-./config no-threads shared
+./config shared
 make -j4
 
 ## openssl的rpm包如何制作
